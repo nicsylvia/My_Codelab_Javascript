@@ -1,0 +1,15 @@
+What are JavaScript bindings?
+A binding in JavaScript is the formal terminology for what a lot of people refer to as a variable. A variable can be defined with the let keyword, 
+but you can also define constant with the const keyword. A binding could refer to either a variable or a constant.
+
+How do you bind variables in JavaScript?
+By using bind() method we can set the context of this to a particular object. So we can use other variables also to call binded function. 
+The bind() method creates a new function where this keyword refers to the parameter in the parenthesis in the above case geeks.
+
+Should you use BIND in JavaScript?
+. bind() is used when you need to pass a callback (e.g. some sort of function reference),
+ but you want the caller to call your function with a specific this value.
+
+What is default binding in JavaScript?
+Default binding refers to how this is the global context whenever a function is invoked without any of these other rules. If we aren't using a dot and 
+we aren't using call(), apply(), or bind(), our this will be our global object. Your global context depends on where you're working.

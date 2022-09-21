@@ -1,0 +1,33 @@
+1. Find the length of the first sentence in the string.
+2. Find the length of the second sentence in the string. 
+3. Find the first and last occurrence of the word "This". 
+4. Find the sub-string with length 12 from the START of the string mStr.
+5. Find the sub-string with length 12 from the END of the string mStr. 
+
+
+The difference between substring() and substr():
+The two parameters of :
+substr() are start and length.
+while for substring() are start and end.
+ 
+string.substr(start, length)
+
+ start: The position where to start the extraction, index starting from 0. 
+ length: The number of characters to extract (optional).
+
+string.substring(start, end)
+
+ start: The position where to start the extraction, index starting from 0. 
+ end: The position (up to, but not including) where to end the extraction (optional).
+
+ substr() Vs. substring()
+The difference is in the second argument. The second argument to substring is the index to stop at (but not include),
+ but the second argument to substr is the maximum length to return. 
+Moreover, substr() accepts a negative starting position as an offset from the end of the string. substring() does not.
+
+There are two String manipulation functions in JavaScript, namely,
+ substr() and substring(), that are used to get a substring from a String. However, there are slight differences 
+ between subst() and substring() methods.
+
+Both functions take two parameters, but substr()
+takes the length of the substring to be returned, while substring takes end index (excluding) for a substring.

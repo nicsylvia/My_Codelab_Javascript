@@ -1,0 +1,44 @@
+1. Which of these variables have valid names and which have invalid names? Give reason.
+
+i) &alpha1 = VALID = It's valid however it's not advised more like not a best practice to start with dollar sign because
+                      It will put you in conflict with many JavaScript library names.
+ii) NUM1 = VALID = It's valid however because JavaScript is case sensitive, consider using all lowercase letters in 
+                    your variable names. This ensures that you never run into errors
+                     because you misused uppercase and lowercase letters.
+iii) DATE-5 = INVALID = This is because only letters, digits, underscores and dollar signs are permitted in variable name. 
+                        Tho it starts with a letter but it has an hyphen in it making it invalid.
+                        Hyphens can be mistaken as substraction attempts. Hence, it's not allowed in JavaScript.
+iv) Totalsum_ = VALID = This is valid because underscores and letters are allowed in JavaScript and a letter began the variable.
+v) 12Byby = INVALID =  JavaScript variable names should not start with a numeral (0-9).    
+vi) num 1 = INVALID = Spacings are not allowed in variablenames.
+vii) super$$ = VALID = It's valid because it contains letters and dollar signs which are allowed in JavaScript.
+viii) object = VALID = It contains only letters and it's not part of the reserved javascript keywords.
+ix) stringNew = VALID = JavaScript uses camelCasing, so this is very much valid.
+x) $rankinClass = VALID = It's valid however it's not advised more like not a best practice to start with dollar sign because
+                      It will put you in conflict with many JavaScript library names.
+
+2. What are the datatypes?
+a. let is20 = true; = Boolean.
+b. let age = 10; = Number.
+c. letlastName = "Bae"; = String.
+d. let fruits = ["Apple", "Banana"] = Array.
+e. let blank; = Undefined.
+let student = {name: "Colin", class: "Java"} = Objects.
+
+
+Notes on naming convention in JavaScript:
+1. You should not use any of the JavaScript reserved keywords as a variable name.
+   For example, break or boolean variable names are not valid.
+2. JavaScript variable names should not start with a numeral (0-9). 
+   They must begin with a letter or an underscore character.
+   For example, 123test is an invalid variable name but _123test is a valid one.
+3. JavaScript variable names are case-sensitive. For example, Name and name are two different variables. 
+4. JavaScript uses camelcasing e.g camelCasing.
+5. Hyphens can be mistaken as substraction attempts. Hence, it's not allowed in JavaScript.
+6. Do not start names with a $ sign. It will put in conflict with many JavaScript library names.
+7. Spacings are not allowed in variable names.
+8. Only letters, digits, underscores and dollar signs are permitted in variablename
+   but you can only use letters, dollar signs and underscores to begin.
+ 9. There's no limit to the length of variable name.
+10. Because JavaScript is case sensitive, consider using all lowercase letters in your variable names. This ensures that you
+   never run into errors because you misused uppercase and lowercase letters.

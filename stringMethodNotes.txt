@@ -1,0 +1,31 @@
+1. The charAt() method takes the index value
+  as an argument and returns the corresponding character from the calling string.
+   An index value of a string starts with 0, which means the first character has an index value of 0,
+  the second character has an index value of 1, and so on.
+
+  The default index value in the charAt method is 0.
+If the index value is out of range then it returns an empty string ('').
+If the index can not be converted to an integer then this method returns the first character of the string.
+
+2. The charCodeAt string method in javascript returns the Unicode value (between 0 and 65535) of the character present 
+at the given index of the string. Example Unicode value of 'A' is 65.
+The charCodeAt() method takes an index as an argument and returns the Unicode value of the character present 
+at that index value.The default value of the index is 0.
+ If the index value is not given or it can't be converted to a string the 0 is used by default.
+If the index value is out of range then this method returns NaN.
+
+3. concat in javascript
+The concat string method in javascript concatenates the passed string in the method to the calling string and returns
+ the concatenated string as a new string.
+The concat() method can take any number of strings as an argument.
+If the passed argument is not a string then it converts the argument to string and then concatenates it.
+
+4. endsWith in javascript
+The endsWith string method in javascript is used to determines whether the string ends with a specified substring or not.
+If it ends with a specified string then it returns true, else returns false.
+The substring to be checked for the ending is passed as the first argument in the method.
+
+5The includes also accept an optional second argument which determines the position from where the method starts searching within the string
+
+The default value of the second argument is 0.
+Example

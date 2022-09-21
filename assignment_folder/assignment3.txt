@@ -1,0 +1,36 @@
+Q. Answer the following questions. Also, explain why do you think that your answer is correct.  
+ 
+var mStr = "This is my test string to practice the JavaScript string function concepts.This is gonna be fun." 
+ 
+ 1. Find the length of the first sentence in the string.
+ var first = "This is my test string to practice the JavaScript string function concepts".split("");
+var lenFirst = first.length;
+console.log(lenFirst);
+
+ 2. Find the length of the second sentence in the string. 
+// var second = "This is gonna be fun".split("");
+// var lenSecond = second.length;
+// console.log(lenSecond)
+
+ 3. Find the first and last occurrence of the word "This". 
+ 4. Find the sub-string with length 12 from the START of the string mStr.
+ Explanation:
+substring(indexStart)
+substring(indexStart, indexEnd)
+Parameters
+indexStart
+The index of the first character to include in the returned substring.
+indexEnd Optional
+The index of the first character to exclude from the returned substring.
+Return value
+A new string containing the specified part of the given string.
+Description
+substring() extracts characters from indexStart up to but not including indexEnd. In particular:
+If indexEnd is omitted, substring() extracts characters to the end of the string.
+If indexStart is equal to indexEnd, substring() returns an empty string.
+If indexStart is greater than indexEnd, then the effect of substring() is as if the two arguments were swapped; see example below.
+Any argument value that is less than 0 or greater than str.length is treated as if it were 0 and str.length, respectively.
+Any argument value that is NaN is treated as if it were 0.
+
+
+ 5. Find the sub-string with length 12 from the END of the string mStr. 

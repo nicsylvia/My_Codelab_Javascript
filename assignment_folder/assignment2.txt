@@ -1,0 +1,79 @@
+1. Declare an empty array.
+2. Declare an array with more than five number of elements, console.log to see the results.
+3. Declare an array with mixed datatypes.
+4. List out 10 string methods.
+5. List out 10 array methods.
+6. List out 10 object methods.
+7. Declare four objects with five different objects each.
+8. List out four number methods and know 3 of their uses.
+
+Some of the answers:
+
+ 4. List out 10 string methods.
+1. concat(): Combines the text of two strings and returns a new string. 
+2. match(): Used to match a regular expression against a string. 
+3. replace(): Used to find a match between a regular expression and a string,
+              and to replace the matched substring with a new substring. 
+4. search():  Executes the search for a match between a regular expression and a specified string. 
+5. slice():   Extracts a section of a string and returns a new string. 
+6. split():  Splits a String object into an array of strings by separating the string into substrings. 
+7. toLocaleLowerCase(): The characters within a string are converted to lower case while respecting the current locale. 
+8. toLocaleUpperCase(): The characters within a string are converted to upper case while respecting the current locale. 
+9. toLowerCase(): Returns the calling string value converted to lower case. 
+10. valueOf(): Returns the primitive value of the specified object. 
+OR *************************************
+
+charAt(index)	returns the character at the specified index
+concat()	joins two or more strings
+replace()	replaces a string with another string
+split()	converts the string to an array of strings
+substr(start, length)	returns a part of a string
+substring(start,end)	returns a part of a string
+slice(start, end)	returns a part of a string
+toLowerCase()	returns the passed string in lower case
+toUpperCase()	returns the passed string in upper case
+trim()	removes whitespace from the strings
+includes()	searches for a string and returns a boolean value
+search()	searches for a string and returns a position of a match
+
+
+5. List out 10 array methods.
+1. foreach(): This method can help you to loop over array’s items.
+2. includes(): This method check if array includes the item passed in the method.
+3. splice() Adds and/or removes elements from an array. 
+4. map(): This method create new array by calling the provided function in every element.
+5. reduce(): This applies a function against an accumulator and each element in the array (from left to right)
+             to reduce it to a single value.
+6. some(): This method check if at least one of array’s item passed the condition. If passed, 
+           it return ‘true’ otherwise ‘false’.
+7. every(): This method check if all array’s item passed the condition. If passed, it return ‘true’ otherwise ‘false’.
+8. sort(): This method used to arrange/sort array’s item either ascending or descending order.
+9. pop(): Removes the last element from an array and returns that element. 
+10. reverse(): Reverses the order of the elements of an array -- the first becomes the last,
+               and the last becomes the first. 
+
+6. List out 10 object methods.
+1. Object.create(): You can also create object with Object.create() function this has additional flexibility that you
+                     can choose what will be prototype of your new object.
+2. Object.entries(): This is a simple function which converts JS objects to an array of arrays.
+                    With inner array is pair of key and value of the object.                    
+3. Object.keys(): This function picks only keys (or property labels) of objects and returns an array.
+4. Object.freeze(): This function freezes the object for any further changes (key or values). 
+                    It may not throw any error (unless you are in strict mode) but there will be no effect of 
+                    value change on your object.
+5. Object.values(): This function picks only values of objects and returns an array
+6. Object.freeze(): This function freezes the object for any further changes (key or values).
+                     It may not throw any error (unless you are in strict mode) but there will be no effect of value
+                      change on your object.
+7. object.seal(): In JavaScript prevents from adding new properties to an object. It’s similar to Object.freeze(),
+                         the only difference is that it allows you to update and change properties inside an object.
+
+8. object.is(): The method Object.is() is another useful JavaScript object method that defines if two values are the same.
+                 It returns true if both values are equal. Otherwise, it returns false.
+
+8. List out four number methods and know 3 of their uses.
+1. toString(): Returns the string representation of the number's value. 
+2. valueOf(): Returns the number's value. 
+3. toPrecision(): Defines how many total digits (including digits to the left and right of the decimal)
+                 to display of a number. 
+4. toFixed(): Formats a number with a specific number of digits to the right of the decimal. 
